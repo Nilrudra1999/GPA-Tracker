@@ -1,0 +1,20 @@
+# Ignoring my virtual environment folder
+.venv/
+venv/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Ignore any .exe files (I only want to upload them to GitHub releases)
+*.exe
+
+# Ignoring IDE/editor files
+.vscode/
+.DS_Store
